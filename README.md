@@ -12,6 +12,18 @@
 
 ---
 
+## 🧠 Pros & Cons
+
+| Aspect             | Scalability Kit                     | Existing Tools (DIY)                  |
+|---------------------|-------------------------------------|----------------------------------------|
+| ✅ Simplicity       | Very high (1 object to configure)  | Moderate (need to compose 3+ libs)    |
+| ✅ Type Safety      | Centralized types for actions & config | Spread across function arguments      |
+| ✅ Hooks            | Built-in (onSuccess, onError, etc) | Manually wired                        |
+| ✅ Reusability      | Plug-and-play in any project       | Must recreate the pipeline per project |
+| ✅ Internal Queueing| Yes (FIFO, batch-safe)             | No built-in queue — just chunking     |
+| 🔧 Customization    | Requires extension                 | More granular control                 |
+| 🧱 Dependencies     | None (except lodash)               | Needs 3+ libraries                    |
+
 ## 📦 Installation
 
 ```bash
