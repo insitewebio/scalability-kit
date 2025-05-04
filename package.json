@@ -31,8 +31,8 @@
     "build": "tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Insite Web",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/lodash.chunk": "^4.2.9",
@@ -42,5 +42,9 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insitewebio/scalability-kit.git"
   }
 }

@@ -176,7 +176,7 @@ Typical scenarios:
 ```TypeScript
 interface TaskOrchestratorsActions<T = any> {
   callback: (batch?: T) => Promise<any>;
-  onRetry?: (attempt: number, batch?: T) => any;
+  onRetry?: (attempt: number, batch?: T) => any; // useful for refreshing expired tokens
   onError?: (error: Error, batch?: T) => any;
   onSuccess?: (response?: any, batch?: T) => any;
 }
